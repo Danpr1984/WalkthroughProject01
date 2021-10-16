@@ -28,15 +28,15 @@ def page_cells_visualizer_body():
     version = 'v1'
     if st.checkbox("Average Image and Variability"):
       
-      avg_parasitized = plt.imread(f"outputs/{version}/avg_Parasitized.png")
-      avg_uninfected = plt.imread(f"outputs/{version}/avg_Uninfected.png")
+      avg_parasitized = plt.imread(f"outputs/{version}/mean_var_Parasitized.png")
+      avg_uninfected = plt.imread(f"outputs/{version}/mean_var_Uninfected.png")
 
       st.warning(
         f"* We notice the average image and variability study didn't show "
         f"patterns where we could intuitively differentiate one to another.")
 
-      st.image(avg_parasitized, caption='Parasitized Cell - Average and Variability')
-      st.image(avg_uninfected, caption='Uninfected Cell - Average and Variability')
+      st.image(avg_parasitized, caption='Parasitized Cell - Mean and Variability')
+      st.image(avg_uninfected, caption='Uninfected Cell - Mean and Variability')
       st.write("---")
 
     if st.checkbox("Differences between Average Parasitized and Average Uninfected Cells"):
@@ -45,7 +45,7 @@ def page_cells_visualizer_body():
           st.warning(
             f"* We notice this study didn't show "
             f"patterns where we could intuitively differentiate one to another.")
-          st.image(diff_between_avgs, caption='Difference between averages')
+          st.image(diff_between_avgs, caption='Difference between average images')
 
 
 
