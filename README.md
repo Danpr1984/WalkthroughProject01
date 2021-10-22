@@ -51,7 +51,7 @@ As a Data Analyst from Code Institute Consulting, you are requested by the Healt
 		* The available dataset contains 5643 out of +27 thousand images taken from blood smear workflow (when a drop of blood it taken on a glass slide) of cells that are parasitized or uninfected with malaria.
 	* Link to addition ainformation
 	* Business requirements
-		*  The client is interested in having a study to differentiate a parasitized and uninfected cell visually.
+		*  The client is interested to have a study to visually differentiate between a parasite contained and uninfected cell.
 		*  The client is interested to tell whether a given cell contains malaria parasite or not.
 
 ### Page 2: Cells Visualizer
