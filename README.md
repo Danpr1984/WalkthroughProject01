@@ -23,7 +23,7 @@ As a Data Analyst from Code Institute Consulting, you are requested by the Healt
 
 * **Business Requirement 2**:  Classification
 	* We want to predict if a given cell is infected or not with malaria. 
-	* We want to build a binary classifier
+	* We want to build a binary classifier and generate reports.
 
 
 ## ML Business Case
