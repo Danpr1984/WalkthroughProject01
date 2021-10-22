@@ -7,7 +7,7 @@ def page_summary_body():
     st.write("### Quick Project Summary")
 
     st.info(
-        f"**Project Terms & Jargons**\n"
+        f"**General Information**\n"
         f"* Malaria is a parasitic infection transmitted by the bite of infected female "
         f"Anopheles mosquitoes.\n"
         f"* A blood smear sample is collected, mixed with a reagent and examined in "
