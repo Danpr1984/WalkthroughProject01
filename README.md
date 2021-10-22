@@ -62,7 +62,7 @@ As a Data Analyst from Code Institute Consulting, you are requested by the Healt
 
 ### Page 3: Malaria Detector
 * Business requirement 2 information - "The client is interested to tell whether a given cell contains malaria parasite or not."
-* Link to download a set of parasite contained and unifected cell images for live prediction.
+* Link to download a set of parasite contained and uninfected cell images for live prediction.
 * User Interface with a file uploader widget. The user should upload multiple malaria cell image. It will display the image and a prediction statement, indicating if the cell is infected or not with malaria and the probability associated with this statement. 
 * Table with image name and prediction results.
 * Download button to download table.
